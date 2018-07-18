@@ -26,7 +26,7 @@ def save_img(img, filename):
     img.save(filename)
 
 
-# Define your obamicon() function here.
+# Define your obamicon() function here
 #       Parameters: The image object to apply the filter to.
 #       Returns: A New Image object with the filter applied.
 def obamicon(img):
@@ -51,4 +51,4 @@ def filter1(img):
     for i in range(len(data)):
         newdata.append((data[i][0],0,0))
     img.putdata(newdata)
-    img.show()              
+    img.show()
